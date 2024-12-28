@@ -27,3 +27,20 @@
     display: flex;
     gap: 2rem;
 }
+
+.book {
+    background-color: lightskyblue;
+    width: clamp(200px, 300px, 400px);
+    text-align: center;
+}
+
+.read-button {
+    background-color: lightgreen;
+    padding: 1rem 3rem;
+}
+
+.remove-button {
+    background-color: rgb(239, 43, 43);
+    padding: 1rem 3rem;
+    color: white;
+}
